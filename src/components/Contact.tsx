@@ -37,19 +37,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex.johnson@email.com',
-      href: 'mailto:alex.johnson@email.com'
+      value: 'salmanlatifse@gmail.com',
+      href: 'mailto:salmanlatifse@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '+92 3041290116',
       href: 'tel:+15551234567'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Central Park, Lahore',
       href: '#'
     }
   ];

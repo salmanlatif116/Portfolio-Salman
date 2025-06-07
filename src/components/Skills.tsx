@@ -11,7 +11,7 @@ const Skills = () => {
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=200&fit=crop',
       skills: [
         { name: 'Python', level: 95 },
-        { name: 'Django', level: 90 },
+        { name: 'Django RESTframework', level: 90 },
         { name: 'FastAPI', level: 88 },
         { name: 'PostgreSQL', level: 85 },
         { name: 'Redis', level: 80 },
@@ -21,7 +21,7 @@ const Skills = () => {
       category: 'AI & Machine Learning',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=200&fit=crop',
       skills: [
-        { name: 'LangChain', level: 92 },
+        { name: 'AI Automations', level: 92 },
         { name: 'RAG Systems', level: 90 },
         { name: 'AI Agents', level: 88 },
         { name: 'OpenAI APIs', level: 90 },
@@ -33,7 +33,7 @@ const Skills = () => {
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop',
       skills: [
         { name: 'Docker', level: 85 },
-        { name: 'AWS', level: 80 },
+        { name: 'Digital Ocean', level: 80 },
         { name: 'CI/CD', level: 82 },
         { name: 'Git', level: 90 },
         { name: 'Linux', level: 85 },
@@ -42,10 +42,9 @@ const Skills = () => {
   ];
 
   const technologies = [
-    'Python', 'Django', 'FastAPI', 'PostgreSQL', 'Redis', 'MongoDB',
-    'LangChain', 'OpenAI', 'Anthropic', 'Hugging Face', 'ChromaDB',
-    'Docker', 'AWS', 'GCP', 'Kubernetes', 'Terraform', 'Git',
-    'RAG', 'AI Agents', 'NLP', 'Vector Databases', 'Microservices'
+    'Python', 'Django', 'Django RESTframework', 'FastAPI', 'PostgreSQL', 'Redis', 'MongoDB', 'React Js',
+    'LangChain', 'OpenAI', 'RAG', 'AI Agents', 'NLP', 'LLMS', 'Vector Databases', 'n8n', 'Flowise', 'Microservices',
+    'Docker', 'AWS', 'Git', 'Linux'
   ];
 
   return (

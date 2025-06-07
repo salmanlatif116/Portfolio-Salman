@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="text-foreground">Hi, I'm</span>{' '}
-              <span className="gradient-text">Alex Johnson</span>
+              <span className="gradient-text">Salman Latif</span>
             </h1>
             
             <div className="text-2xl md:text-4xl text-muted-foreground mb-8 h-16 flex items-center justify-center lg:justify-start">
@@ -102,7 +102,7 @@ const Hero = () => {
                 className="relative rounded-2xl shadow-2xl w-96 h-96 object-cover border-4 border-white/10"
               />
               <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-primary to-blue-600 text-white p-4 rounded-xl shadow-lg">
-                <div className="text-sm font-semibold">5+ Years</div>
+                <div className="text-sm font-semibold">1+ Year</div>
                 <div className="text-xs opacity-90">Experience</div>
               </div>
             </div>

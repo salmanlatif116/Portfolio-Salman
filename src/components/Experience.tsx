@@ -7,46 +7,38 @@ import { CalendarDays, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Senior AI Engineer',
-      company: 'TechCorp AI Solutions',
-      location: 'San Francisco, CA',
-      period: 'Jan 2023 - Present',
-      description: 'Lead development of enterprise AI solutions including RAG systems, AI agents, and automation pipelines. Architected scalable ML infrastructure serving 1M+ users.',
-      technologies: ['Python', 'LangChain', 'FastAPI', 'AWS', 'Docker'],
+      title: 'Backend & AI Developer',
+      company: 'Tekvix',
+      location: 'Lahore, Pakistan',
+      period: 'Aug 2024 – Aug 2025',
+      description: `Built scalable APIs, real-time data pipelines, and enterprise AI solutions using Django, FastAPI, and Python. Developed RESO, RETS, and IDX systems for real estate platforms.`,
+      technologies: [
+        'Python Scripting',
+        'Django REST Framework',
+        'FastAPI',
+        'PostgreSQL',
+        'MongoDB',
+        'Redis',
+        'AI Agents',
+        'RAG Systems',
+        'AI Automation',
+        'RESO',
+        'RETS',
+        'IDX'
+      ],
       achievements: [
-        'Built RAG system reducing query response time by 70%',
-        'Developed AI agents increasing sales conversion by 45%',
-        'Led team of 5 engineers on ML infrastructure'
-      ]
-    },
-    {
-      title: 'Backend Developer',
-      company: 'DataFlow Systems',
-      location: 'Austin, TX',
-      period: 'Jun 2021 - Dec 2022',
-      description: 'Developed high-performance APIs and microservices using Django and FastAPI. Implemented real-time data processing pipelines handling 10M+ events daily.',
-      technologies: ['Django', 'FastAPI', 'PostgreSQL', 'Redis', 'Kubernetes'],
-      achievements: [
-        'Optimized API performance by 60% through caching strategies',
-        'Built real-time analytics dashboard with 99.9% uptime',
-        'Implemented automated testing reducing bugs by 40%'
-      ]
-    },
-    {
-      title: 'Python Developer',
-      company: 'StartupX',
-      location: 'Remote',
-      period: 'Mar 2020 - May 2021',
-      description: 'Built web applications and automation tools using Django. Integrated third-party APIs and developed custom solutions for client requirements.',
-      technologies: ['Python', 'Django', 'REST APIs', 'PostgreSQL', 'Git'],
-      achievements: [
-        'Delivered 15+ client projects with 100% satisfaction rate',
-        'Reduced manual processes by 80% through automation',
-        'Mentored 3 junior developers'
+        'Boosted API speed by 60% using Redis caching and optimized queries',
+        'Built real-time dashboard with 99.9% uptime using MongoDB',
+        'Developed AI agents for automated support, reducing manual work by 70%',
+        'Implemented RAG pipelines for smart content retrieval',
+        'Automated backend ops, cutting deployment time by 50%',
+        'Reduced bugs by 40% via comprehensive test coverage',
+        'Designed async microservices with Celery and Redis',
+        'Delivered RESO-compliant RETS/IDX integration for real estate listings'
       ]
     }
   ];
-
+  
   return (
     <section id="experience" className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
